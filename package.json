@@ -1,0 +1,19 @@
+{
+  "name": "stockroom",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "prepare:web": "node scripts/prepare-web.js",
+    "patch:android": "node scripts/patch-manifest.js"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.0.0",
+    "@capacitor/core": "^7.0.0",
+    "@capacitor-mlkit/barcode-scanning": "^7.0.0",
+    "xlsx": "0.18.5"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^7.0.0"
+  }
+}
